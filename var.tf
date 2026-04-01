@@ -10,7 +10,7 @@ variable "sf_acc" {
 
 variable "sf_private_key_path" {
   type    = string
-  default = "../keys/k1/snowflake_tf_snow_key.p8"
+  default = "../keys/k1/snowflake_tf_snow_key.p8" ## This key path is in my local.
 }
 
 # variable "user1" {
